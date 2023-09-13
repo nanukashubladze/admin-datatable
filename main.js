@@ -32,7 +32,7 @@ async function dataTable () {
 
   data.map(item => {
     const userText = document.createElement('h2');
-    userText.textContent = `${item.id} ${item.name}`;
+    userText.textContent = `${item.id}. ${item.name}`;
     user.appendChild(userText);
     userText.style.color = "#6C757D";
     userText.style.fontSize = "15px";
